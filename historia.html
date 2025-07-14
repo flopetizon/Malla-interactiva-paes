@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Historia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="nav">
+    <a href="index.html">🏠 Inicio</a>
+    <a href="matematicas.html">🧮 Matemáticas</a>
+  </div>
+
+  <h1>📖 Malla Historia PAES 2026</h1>
+  <div class="grid">
+    <div class="box">Historia: Edad Moderna y Contemporánea</div>
+    <div class="box">Chile del siglo XIX</div>
+    <div class="box">Chile del siglo XX</div>
+    <div class="box">Dictadura y transición a la democracia</div>
+    <div class="box">Formación Ciudadana y Participación</div>
+    <div class="box">Estado, Gobierno y Poder</div>
+    <div class="box">Derechos Humanos</div>
+    <div class="box">Geografía: Espacio Geográfico y Medioambiente</div>
+    <div class="box">Geografía Económica de Chile</div>
+    <div class="box">Globalización y Cambios Territoriales</div>
+    <div class="box">Economía: Micro y Macro</div>
+    <div class="box">Inflación y sistema financiero</div>
+    <div class="box">Demanda, Oferta y Producción</div>
+    <div class="box">Crisis de 1929 y neoliberalismo</div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.box').forEach(box => {
+      box.addEventListener('click', () => {
+        box.classList.toggle('completed');
+      });
+    });
+  </script>
+
+</body>
+</html>
